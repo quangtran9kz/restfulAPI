@@ -17,6 +17,7 @@ public class User implements Serializable {
 	private String password;
 	private String name;
 	private String role;
+	private String email;
 
 	public User() {
 
@@ -60,6 +61,13 @@ public class User implements Serializable {
 
 	public void setRole(String role) {
 		this.role = role;
+	}
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email=email;
 	}
 
 }
